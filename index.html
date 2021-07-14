@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="GPSG"/>
+
+    <!-- bootstrap icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<!-- My Styles -->
+    <link rel="stylesheet" href="src\css\style.css">
+    <link rel="stylesheet" href="src\css\responsive.css">
+
+    <title>WE LOVE BOOKS</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">WE<i class="bi bi-heart-fill"></i>BOOKS</h2>
+            <nav>
+                <a class="nav-link" href="#">INÍCIO</a>
+                <a class="nav-link" href="#">LITERATURA</a>
+                <a class="nav-link" href="#">DIDÁTICOS</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <h1 class="title">LIVROS GRATUITOS</h1>
+                <p class="description">Uma coletânea de livros que podem ser baixados gratuitamente no site da amazon.</p>
+                <h3 class="subtitle">ENCONTRE A SUA PRÓXIMA LEITURA</h3>
+            </div>
+        </div>
+        
+        <!-- Container for shelfs -->
+        <section class="shelfs">
+
+            <!--  Shelf  -->
+            <article class="shelf shelf-1">
+
+                <!-- Title-->
+                <h2 class="shelf-title">Didáticos</h2>
+
+                <!-- Shelf container -->
+                <div class="shelf-container">
+
+                    <!-- Back button -->
+                    <div class="slide-btn slide-back" onclick="moveBack()">
+                        <i class="bi bi-chevron-compact-left"></i>
+                    </div>
+
+                    <!-- Scrolling row-->
+                    <div class="shelf-row">
+                        <a href="https://www.amazon.com.br/Thinking-HTML-English-Aravind-Shenoy-ebook/dp/B00NN8H4FU/" target="_blank" class="book">
+                            <img src="/src/img/thinking-in-html.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Essence-Software-Engineering-English-ebook/dp/B07DSCXWN5/" target="_blank" class="book">
+                            <img src="/src/img/the-essence-of-software-engineering.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Introductory-Statistics-English-Barbara-Illowsk-ebook/dp/B075FF48ST/" target="_blank" class="book">
+                            <img src="/src/img/statistics.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Automated-Machine-Learning-Challenges-Springer-ebook/dp/B07S3MLGFW/" target="_blank" class="book">
+                            <img src="/src/img/automated-machine-learning.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Calculus-2-English-Gilbert-Strang-ebook/dp/B075FD7MZK/" target="_blank" class="book">
+                            <img src="/src/img/calculus-2.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Thinking-CSS-English-Aravind-Shenoy-ebook/dp/B00JUI6LQU/" target="_blank" class="book">
+                            <img src="/src/img/thinking-in-css.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Introduction-Analysis-Qualitative-Research-English-ebook/dp/B07Q5M5V1L/" target="_blank" class="book">
+                            <img src="/src/img/introduction-to-data-analysis.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Data-Driven-English-DJ-Patil-ebook/dp/B00SXHFTAS/" target="_blank" class="book">
+                            <img src="/src/img/data-driven.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/JavaScript-HTML5-English-Kyle-Simpson-ebook/dp/B0084HJE0S/" target="_blank" class="book">
+                            <img src="/src/img/javascript-and-html5-now.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Precalculus-English-Jay-Abramson-ebook/dp/B075FC37CD/" target="_blank" class="book">
+                            <img src="/src/img/calculus-pre.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Sumerians-History-Beginning-End-English-ebook/dp/B01INXL1U8/" target="_blank" class="book">
+                            <img src="/src/img/the-sumerians.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                        <a href="https://www.amazon.com.br/Astronomy-English-Andrew-Fraknoi-ebook/dp/B075FG4KTK/" target="_blank" class="book">
+                            <img src="/src/img/astronomy.jpg" alt="Capa do Livro" class="book-cover">
+                        </a>
+                    </div>
+                    <!-- Forward button-->
+                    <div class="slide-btn slide-foward" onclick="moveFoward()">
+                        <i class="bi bi-chevron-compact-right"></i>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/gpsg" target="_blank">GPSG</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="src/js/myscript.js"></script>
+</body>
+</html>

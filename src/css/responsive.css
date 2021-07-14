@@ -1,0 +1,66 @@
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) 100%), url('../img/bg-phone_414x600.jpg');
+        height: 600px;
+    }
+
+    .hero .container {
+        width: 70%;
+        height: 80%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        top: 10%;
+    }
+    
+    .hero .container .title {
+        font-size: 5em;
+    }
+    
+    .hero .container .description {
+        font-size: 1.6em;
+    }
+    
+    .hero .container .subtitle {
+        font-size: 2.6em;
+        line-height: 1.1em;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .hero {
+        height: 400px;
+    }
+
+    .hero .container {
+        justify-content: flex-start;
+    }
+
+    .hero .container .title {
+        font-size: 3.5em;
+        padding: 5px;
+    }
+    
+    .hero .container .description {
+        font-size: 1.4em;
+        padding: 5px;
+    }
+    
+    .hero .container .subtitle {
+        font-size: 2.2em;
+        line-height: 1.1em;
+        margin-top: 0;
+        padding: 5px;
+    }
+}

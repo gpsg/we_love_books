@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Kanit&family=Megrim&family=Roboto&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+	font-family: 'Kanit', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+
+:root{
+	--black-2: #141414;
+	--black-3: #222222;
+	--logo: #09A7EB;
+	--txt-white: #FAFAFA;
+}
+
+body {
+    background: var(--black-2);
+    color: var(--txt-white);
+}
+
+.logo {
+    color: var(--logo);
+}
