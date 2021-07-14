@@ -1,2 +1,2 @@
 # we_love_books
- folder containing a website created as exercise for the html bootcamp
+ A website I created as exercise for the html bootcamp.
